@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-from IPython.display import Image,diplay
+from IPython.display import Image,display
 
 def save_and_display_gradcam(image_path,heatmap,gradcam_path="gradcam.png",heatmap_path="heatmap.png",alpha=5):
     # Load the image
